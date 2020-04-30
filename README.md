@@ -10,12 +10,15 @@ https://doi.org/10.1021/acs.jpcc.7b11255
 [4] "Influence of clustering on the magnetic properties and hyperthermia performance of iron oxide nanoparticles"\
 https://doi.org/10.1088/1361-6528/aad67d.
 # Data Files
-FSL-DCM_data.txt: Initial branch of the isothermal DC-magnetization (DCM) curve of sample FS-L from [4]. Column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
+**FSL-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of sample FS-L from [4]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
 
-FSL-SAXS_data.txt: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. Column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
+**FSL-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
 
-NF-ACS_data.txt: AC scusceptibility data (ACS) of the nanoflower sample from [3]. Column 1: rotational frequency $\omega=2\pif$
+**NF-ACS_data.txt**: AC scusceptibility data (ACS) of the nanoflower sample from [3]. column 1: rotational frequency in [rad/s], column 2/3: real part of the complex susceptibility/ measurement uncertainty, column 4/5: real part of the complex susceptibility/ measurement uncertainty (we assumed of the measurement uncertainties constant values).
+
 # Notebooks
-DCM-numerical_inversion: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt.
+**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt.
 
-SAXS-numerical_inversion: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform).
+**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform).
+
+**ACS-numerical_inversion**: Jupyter notebook to extract the underlying relaxation time distribution function from the ACS measurement NF-ACS_data.txt.
