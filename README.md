@@ -14,6 +14,6 @@ FSL-DCM_data.txt: Initial branch of the isothermal DC-magnetization (DCM) curve 
 
 FSL-SAXS_data.txt: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. Column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
 # Notebooks
-DCM-numerical_inversion: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve.
+DCM-numerical_inversion: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt.
 
-SAXS-numerical_inversion: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement (i.e., indirect Fourier transform).
+SAXS-numerical_inversion: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform).
