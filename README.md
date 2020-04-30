@@ -13,6 +13,8 @@ https://doi.org/10.1088/1361-6528/aad67d.
 FSL-DCM_data.txt: Initial branch of the isothermal DC-magnetization (DCM) curve of sample FS-L from [4]. Column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
 
 FSL-SAXS_data.txt: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. Column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
+
+NF-ACS_data.txt: AC scusceptibility data (ACS) of the nanoflower sample from [3]. Column 1: rotational frequency $\omega=2\pif$
 # Notebooks
 DCM-numerical_inversion: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt.
 
