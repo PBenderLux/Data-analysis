@@ -10,13 +10,13 @@ https://doi.org/10.1021/acs.jpcc.7b11255
 [4] "Influence of clustering on the magnetic properties and hyperthermia performance of iron oxide nanoparticles"\
 https://doi.org/10.1088/1361-6528/aad67d.
 # Data Files
-**SC-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of the dispersion of iron oxide single cores (SC) from [2]. column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
+**SC-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of the dispersion of iron oxide single cores (SC) from [2]. column 1: scattering vector in [1/nm], column 2: scattering intensity, column 3: measurement uncertainty.
 
 **NF-ACS_data.txt**: AC scusceptibility (ACS) data of the nanoflower sample from [3]. column 1: rotational frequency in [rad/s], column 2/3: real part of the complex susceptibility/measurement uncertainty, column 4/5: real part of the complex susceptibility/measurement uncertainty (we assumed constant values for the measurement uncertainties).
 
 **FSL-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of sample FS-L from [4]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
 
-**FSL-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
+**FSL-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. column 1: scattering vector in [1/nm], column 2: scattering intensity, column 3: measurement uncertainty.
 
 # Notebooks
 **SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt.
