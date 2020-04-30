@@ -14,7 +14,7 @@ https://doi.org/10.1088/1361-6528/aad67d.
 
 **FSL-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. column 1: scattering vector in [nm^-1], column 2: scattering intensity, column 3: measurement uncertainty.
 
-**NF-ACS_data.txt**: AC scusceptibility data (ACS) of the nanoflower sample from [3]. column 1: rotational frequency in [rad/s], column 2/3: real part of the complex susceptibility/ measurement uncertainty, column 4/5: real part of the complex susceptibility/ measurement uncertainty (we assumed of the measurement uncertainties constant values).
+**NF-ACS_data.txt**: AC scusceptibility (ACS) data of the nanoflower sample from [3]. column 1: rotational frequency in [rad/s], column 2/3: real part of the complex susceptibility/ measurement uncertainty, column 4/5: real part of the complex susceptibility/ measurement uncertainty (we assumed of the measurement uncertainties constant values).
 
 # Notebooks
 **DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt.
