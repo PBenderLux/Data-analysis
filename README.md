@@ -1,6 +1,6 @@
 # Data-analysis [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PBenderLux/Data-analysis/master)
 A collection of python programs (Jupyter notebooks) for the analysis of magnetization and scattering data of magnetic nanoparticle samples. 
-This repository contains various examples from the following papers:  
+This repository contains examples published in the following papers:  
 [1] "Structural and magnetic properties of multi-core nanoparticles analysed using a generalised numerical inversion method"\
 https://doi.org/10.1038/srep45990  
 [2] "Distribution functions of magnetic nanoparticles determined by a numerical inversion method"\
