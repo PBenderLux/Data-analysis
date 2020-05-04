@@ -8,7 +8,9 @@ https://doi.org/10.1088/1367-2630/aa73b4
 [3] "Relating Magnetic Properties and High Hyperthermia Performance of Iron Oxide Nanoflowers"\
 https://doi.org/10.1021/acs.jpcc.7b11255  
 [4] "Influence of clustering on the magnetic properties and hyperthermia performance of iron oxide nanoparticles"\
-https://doi.org/10.1088/1361-6528/aad67d.
+https://doi.org/10.1088/1361-6528/aad67d
+[5] "Dipolar-coupled moment correlations in clusters of magnetic nanoparticles"\
+https://doi.org/10.1103/PhysRevB.98.224420.
 # Data Files
 **MC-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of the colloidal dispersion of multicore (MC) particles from [1]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
 
@@ -20,13 +22,17 @@ https://doi.org/10.1088/1361-6528/aad67d.
 
 **FSL-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. column 1: scattering vector in [1/nm], column 2: scattering intensity, column 3: measurement uncertainty.
 
+**NC-SANS_data.txt**: Magnetic small-angle neutron scattering (SANS) measurement of sample a sample magnetic nanoparticle clusters [5]. column 1: scattering vector in [1/nm], column 2: purely magnetic scattering intensity, column 3: measurement uncertainty.
+
 # Notebooks
-**DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion).
+**DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion), from [1].
 
-**SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt assuming spherical particle shape.
+**SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt assuming spherical particle shape, from [2].
 
-**ACS-numerical_inversion**: Jupyter notebook to extract the underlying relaxation time distribution function from the ACS measurement NF-ACS_data.txt.
+**ACS-numerical_inversion**: Jupyter notebook to extract the underlying relaxation time distribution function from the ACS measurement NF-ACS_data.txt, from [3].
 
-**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt (basically identical to DCM-numerical_inversion-MC).
+**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt (basically identical to DCM-numerical_inversion-MC), from [4].
 
-**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform).
+**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform), from [4].
+
+**SANS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the magnetic SANS measurement FSL-SAXS_data.txt (basically identical to SAXS-numerical_inversion), from [5].
