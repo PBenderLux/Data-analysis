@@ -22,7 +22,7 @@ https://doi.org/10.1103/PhysRevB.98.224420.
 
 **FSL-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of sample FS-L from [4]. column 1: scattering vector in [1/nm], column 2: scattering intensity, column 3: measurement uncertainty.
 
-**NC-SANS_data.txt**: Magnetic small-angle neutron scattering (SANS) measurement of sample a sample magnetic nanoparticle clusters [5]. column 1: scattering vector in [1/nm], column 2: purely magnetic scattering intensity, column 3: measurement uncertainty.
+**NC-SANS_data.txt**: Magnetic small-angle neutron scattering (SANS) measurement of a sample of magnetic nanoparticle clusters [5]. column 1: scattering vector in [1/nm], column 2: purely magnetic scattering intensity, column 3: measurement uncertainty.
 
 # Notebooks
 **DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion), from [1].
