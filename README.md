@@ -10,7 +10,7 @@ This repository contains examples published in the following papers:
 [4] P. Bender et al., Nanotechnology 29 (2018) 425705 https://doi.org/10.1088/1361-6528/aad67d \
 "Influence of clustering on the magnetic properties and hyperthermia performance of iron oxide nanoparticles"\
 [5] P. Bender et al., Phys. Rev. B 98 (2018) 224420 https://doi.org/10.1103/PhysRevB.98.224420 \
-"Dipolar-coupled moment correlations in clusters of magnetic nanoparticles"\
+"Dipolar-coupled moment correlations in clusters of magnetic nanoparticles"
 
 # Data Files
 **MC-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of the colloidal dispersion of multicore (MC) particles from [1]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
