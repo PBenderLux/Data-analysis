@@ -10,8 +10,8 @@ This repository contains examples published in the following papers:
 [4] P. Bender et al., Nanotechnology 29 (2018) 425705 https://doi.org/10.1088/1361-6528/aad67d \
 "Influence of clustering on the magnetic properties and hyperthermia performance of iron oxide nanoparticles"\
 [5] P. Bender et al., Phys. Rev. B 98 (2018) 224420 https://doi.org/10.1103/PhysRevB.98.224420 \
-"Dipolar-coupled moment correlations in clusters of magnetic nanoparticles"
-[5] P. Bender et al., Acta Cryst. A75 (2019) 766-771 https://doi.org/10.1107/S205327331900891X \
+"Dipolar-coupled moment correlations in clusters of magnetic nanoparticles" \
+[6] P. Bender et al., Acta Cryst. A75 (2019) 766-771 https://doi.org/10.1107/S205327331900891X \
 "Using the singular value decomposition to extract 2D correlation functions from scattering patterns"
 
 # Data Files
