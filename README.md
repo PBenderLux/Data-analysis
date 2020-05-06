@@ -11,6 +11,8 @@ This repository contains examples published in the following papers:
 "Influence of clustering on the magnetic properties and hyperthermia performance of iron oxide nanoparticles"\
 [5] P. Bender et al., Phys. Rev. B 98 (2018) 224420 https://doi.org/10.1103/PhysRevB.98.224420 \
 "Dipolar-coupled moment correlations in clusters of magnetic nanoparticles"
+[5] P. Bender et al., Acta Cryst. A75 (2019) 766-771 https://doi.org/10.1107/S205327331900891X \
+"Using the singular value decomposition to extract 2D correlation functions from scattering patterns"
 
 # Data Files
 **MC-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of the colloidal dispersion of multicore (MC) particles from [1]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
@@ -25,15 +27,19 @@ This repository contains examples published in the following papers:
 
 **NC-SANS_data.txt**: Magnetic small-angle neutron scattering (SANS) measurement of a sample of magnetic nanoparticle clusters from [5]. column 1: scattering vector in [1/nm], column 2: purely magnetic scattering intensity, column 3: measurement uncertainty.
 
+**MTB_2DSAXS_data.txt**: 2D small-angle X-ray scattering (SAXS) pattern of a colloidal dispersion of aligned magnetotactic bacteria (MTB) from [6]. column 1: angle theta between scattering vector q and alignment direction, column 2: magnitude of scattering vector q, column 3: scattering intensity.
+
 # Notebooks
-**DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion), from [1].
+**DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion) from [1].
 
-**SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt assuming spherical particle shape, from [2].
+**SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt assuming spherical particle shape from [2].
 
-**ACS-numerical_inversion**: Jupyter notebook to extract the underlying relaxation time distribution function from the ACS measurement NF-ACS_data.txt, from [3].
+**ACS-numerical_inversion**: Jupyter notebook to extract the underlying relaxation time distribution function from the ACS measurement NF-ACS_data.txt from [3].
 
-**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt (basically identical to DCM-numerical_inversion-MC), from [4].
+**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt (basically identical to DCM-numerical_inversion-MC) from [4].
 
-**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform), from [4].
+**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform) from [4].
 
-**SANS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the magnetic SANS measurement NC-SANS_data.txt (basically identical to SAXS-numerical_inversion), from [5].
+**SANS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the magnetic SANS measurement NC-SANS_data.txt (basically identical to SAXS-numerical_inversion) from [5].
+
+**SAXS-2D_SVD**: Jupyter notebook to extract the underlying 2D pair distance distribution function from the 2D SAXS pattern MTB_2DSAXS_data.txt by a singular value decoposition (SVD, truncated and standard SVD) from [5].
