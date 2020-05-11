@@ -27,7 +27,7 @@ This repository contains examples published in the following papers:
 
 **NC-SANS_data.txt**: Magnetic small-angle neutron scattering (SANS) measurement of a sample of magnetic nanoparticle clusters from [5]. column 1: scattering vector in [1/nm], column 2: purely magnetic scattering intensity, column 3: measurement uncertainty.
 
-**MTB_2DSAXS_data.txt**: 2D small-angle X-ray scattering (SAXS) pattern of a colloidal dispersion of aligned magnetotactic bacteria (MTB) in polar coordinates from [6]. column 1: angle theta between scattering vector q and alignment direction (from 0° to 180°), column 2: magnitude of scattering vector q, column 3: scattering intensity.
+**MTB_2DSAXS_data.txt**: 2D small-angle X-ray scattering (SAXS) pattern of a colloidal dispersion of aligned magnetotactic bacteria (MTB) in polar coordinates from [6]. column 1: angle theta between scattering vector q and alignment direction (from 0° to 180°), column 2: magnitude of scattering vector q in [1/nm], column 3: scattering intensity.
 
 # Notebooks
 **DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion) from [1].
