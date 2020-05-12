@@ -1,6 +1,6 @@
 # Data-analysis[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PBenderLux/Data-analysis/master)
 A collection of python programs (Jupyter notebooks) for the analysis of magnetization and scattering data of magnetic nanoparticle samples. \
-The programs can be run without downloading anything in a executable environment using mybinder.org by clicking on the link above. However, the computational time is very low, therefore, I recommend to download the repository and to run the notebooks on your own computer.
+The programs can be run without downloading anything in a executable environment using mybinder.org by clicking on the link above. However, the computational time is very low, therefore, I recommend to download the repository and to run the notebooks on your own computer. The following link provides all the necessary information on how to execute jupyter notebooks: https://jupyter.readthedocs.io/en/latest/install.html#install
 
 The repository contains examples published in the following papers:  
 [1] P. Bender et al., Sci. Rep. 7 (2017) 45990 https://doi.org/10.1038/srep45990 \
