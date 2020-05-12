@@ -1,4 +1,4 @@
-# Data-analysis [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PBenderLux/Data-analysis/master)
+# Data-analysis
 A collection of python programs (Jupyter notebooks) for the analysis of magnetization and scattering data of magnetic nanoparticle samples. 
 This repository contains examples published in the following papers:  
 [1] P. Bender et al., Sci. Rep. 7 (2017) 45990 https://doi.org/10.1038/srep45990 \
