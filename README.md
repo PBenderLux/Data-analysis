@@ -38,17 +38,17 @@ The repository contains examples published in the following papers:
 **Nanoperm_2DSANS_data.txt**: 2D magnetic small-angle neutron scattering (SANS) pattern of the nanocrystalline ferromagnet Nanoperm from [7]. column 1: angle theta between scattering vector q and alignment direction (from 0° to 180°), column 2: magnitude of scattering vector q in [1/nm], column 3: residual magnetic scattering intensity.
 
 # Notebooks
-**DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion) from [1].
+**DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt from [1] (basically identical to DCM-numerical_inversion).
 
 **SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt assuming spherical particle shape from [2].
 
 **ACS-numerical_inversion**: Jupyter notebook to extract the underlying relaxation time distribution function from the ACS measurement NF-ACS_data.txt from [3].
 
-**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt (basically identical to DCM-numerical_inversion-MC) from [4].
+**DCM-numerical_inversion**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve FSL-DCM_data.txt from [4] (basically identical to DCM-numerical_inversion-MC).
 
-**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform) from [4].
+**SAXS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the SAXS measurement FSL-SAXS_data.txt (i.e., an indirect Fourier transform) from [4] (basically identical to SANS-numerical_inversion).
 
-**SANS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the magnetic SANS measurement NC-SANS_data.txt (basically identical to SAXS-numerical_inversion) from [5].
+**SANS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the magnetic SANS measurement NC-SANS_data.txt from [5] (basically identical to SAXS-numerical_inversion).
 
 **SAXS-2D_SVD**: Jupyter notebook to extract the underlying 2D pair distance distribution function from the 2D SAXS pattern MTB_2DSAXS_data.txt by a singular value decoposition (SVD, truncated and standard SVD) from [6].
 
