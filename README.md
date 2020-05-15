@@ -16,7 +16,9 @@ The repository contains examples published in the following papers:
 [5] P. Bender et al., Phys. Rev. B 98 (2018) 224420 https://doi.org/10.1103/PhysRevB.98.224420 \
 "Dipolar-coupled moment correlations in clusters of magnetic nanoparticles" \
 [6] P. Bender et al., Acta Cryst. A75 (2019) 766-771 https://doi.org/10.1107/S205327331900891X \
-"Using the singular value decomposition to extract 2D correlation functions from scattering patterns"
+"Using the singular value decomposition to extract 2D correlation functions from scattering patterns" \
+[7] P. Bender & J. Leliaert et al., arxiv: 2003.14003 https://arxiv.org/abs/2003.14003 \
+"Imaging nanostructured spin textures"
 
 # Data Files
 **MC-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of the colloidal dispersion of multicore (MC) particles from [1]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
@@ -33,6 +35,8 @@ The repository contains examples published in the following papers:
 
 **MTB_2DSAXS_data.txt**: 2D small-angle X-ray scattering (SAXS) pattern of a colloidal dispersion of aligned magnetotactic bacteria (MTB) in polar coordinates from [6]. column 1: angle theta between scattering vector q and alignment direction (from 0° to 180°), column 2: magnitude of scattering vector q in [1/nm], column 3: scattering intensity.
 
+**Nanoperm_2DSANS_data.txt**: 2D magnetic small-angle neutron scattering (SANS) pattern of the nanocrystalline ferromagnet Nanoperm from [7]. column 1: angle theta between scattering vector q and alignment direction (from 0° to 180°), column 2: magnitude of scattering vector q in [1/nm], column 3: residual magnetic scattering intensity.
+
 # Notebooks
 **DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt (basically identical to DCM-numerical_inversion) from [1].
 
@@ -47,3 +51,5 @@ The repository contains examples published in the following papers:
 **SANS-numerical_inversion**: Jupyter notebook to extract the underlying pair distance distribution function from the magnetic SANS measurement NC-SANS_data.txt (basically identical to SAXS-numerical_inversion) from [5].
 
 **SAXS-2D_SVD**: Jupyter notebook to extract the underlying 2D pair distance distribution function from the 2D SAXS pattern MTB_2DSAXS_data.txt by a singular value decoposition (SVD, truncated and standard SVD) from [6].
+
+**SANS-2D_experiment_Kaczmarz**: Jupyter notebook to extract the underlying 2D (magnetic) pair distance distribution function from the 2D (magnetic) SANS pattern Nanoperm_2DSANS_data.txt by the Kaczmarz algorithm from [7].
