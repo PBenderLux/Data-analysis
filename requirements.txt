@@ -7,3 +7,4 @@ lmfit
 corner
 emcee
 tqdm
+pandas
