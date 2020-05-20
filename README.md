@@ -4,7 +4,8 @@ A collection of python 3 programs (Jupyter notebooks) for the analysis of magnet
 The programs can be run without downloading anything in an executable environment using mybinder.org by clicking on the link above (note: seems to work best with Firefox or Edge, I personally have problems when using Chrome). However, the loading may take quite long and the computational speed is very slow. Thus, I recommend to download the repository and to run the notebooks directly on your own computer. The following link provides all the necessary information on how to execute jupyter notebooks: https://jupyter.readthedocs.io/en/latest/tryjupyter.html \
 When you are new to python I recommend to first install Anaconda which conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science: https://www.anaconda.com/products/individual
 
-The repository contains examples published in the following papers:  
+This repository is subdivided into two different folders. 
+The first folder **1: Inverse problems** contains examples published in the following papers:  
 [1] P. Bender et al., Sci. Rep. 7 (2017) 45990 https://doi.org/10.1038/srep45990 \
 "Structural and magnetic properties of multi-core nanoparticles analysed using a generalised numerical inversion method"\
 [2] P. Bender et al., New J. Phys. 19 (2017) 073012 https://doi.org/10.1088/1367-2630/aa73b4 \
@@ -20,6 +21,11 @@ The repository contains examples published in the following papers:
 [7] P. Bender & J. Leliaert et al., arxiv: 2003.14003 https://arxiv.org/abs/2003.14003 \
 "Imaging nanostructured spin textures"
 
+The second folder **2: Bayesian analysis** contains examples published in:
+[8] M. Bersweiler, H. Gavilan Rubio, D. Honecker, A. Michels & P. Bender, https://arxiv.org/abs/2005.09325
+"The benefits of a Bayesian analysis for the characterization of magnetic nanoparticles"
+
+# 1: Inverse problems
 # Data Files
 **MC-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of the colloidal dispersion of multicore (MC) particles from [1]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
 
@@ -53,3 +59,7 @@ The repository contains examples published in the following papers:
 **SAXS-2D_SVD**: Jupyter notebook to extract the underlying 2D pair distance distribution function from the 2D SAXS pattern MTB_2DSAXS_data.txt by a singular value decoposition (SVD, truncated and standard SVD) from [6].
 
 **SANS-2D_experiment_Kaczmarz**: Jupyter notebook to extract the underlying 2D (magnetic) pair distance distribution function from the 2D (magnetic) SANS pattern Nanoperm_2DSANS_data.txt by the Kaczmarz algorithm from [7].
+
+# 2: Bayesian analysis
+# Data
+**Magnetization_data.txt**: First branch from 5 to -5 T of the isothermal DC-magnetization (DCM) curve of the powder sample of core-shell nanoparticles (iron oxide core with a thick silica shell) from [8]. column 1: magnetic field in [T], column 2: magnetization in [Am^2/kg_Fe]. 
