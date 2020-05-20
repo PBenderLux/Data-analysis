@@ -6,3 +6,4 @@ IPython
 lmfit
 corner
 emcee
+tqdm
