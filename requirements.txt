@@ -3,3 +3,6 @@ matplotlib
 scipy
 sklearn
 IPython
+lmfit
+corner
+emcee
