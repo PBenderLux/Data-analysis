@@ -21,8 +21,8 @@ The first folder **1: Inverse problems** contains examples published in:
 [7] P. Bender & J. Leliaert et al., arxiv: 2003.14003 https://arxiv.org/abs/2003.14003 \
 "Imaging nanostructured spin textures"
 
-The second folder **2: Bayesian analysis** contains examples published in:
-[8] M. Bersweiler, H. Gavilan Rubio, D. Honecker, A. Michels & P. Bender, https://arxiv.org/abs/2005.09325
+The second folder **2: Bayesian analysis** contains examples published in: \
+[8] M. Bersweiler, H. Gavilan Rubio, D. Honecker, A. Michels & P. Bender, https://arxiv.org/abs/2005.09325 \
 "The benefits of a Bayesian analysis for the characterization of magnetic nanoparticles"
 
 # 1: Inverse problems
