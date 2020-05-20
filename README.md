@@ -26,7 +26,7 @@ The second folder **2 Bayesian analysis** contains examples published in: \
 "The benefits of a Bayesian analysis for the characterization of magnetic nanoparticles"
 
 # 1 Inverse problems
-# Data Files
+# data
 **MC-DCM_data.txt**: Initial branch of the isothermal DC-magnetization (DCM) curve of the colloidal dispersion of multicore (MC) particles from [1]. column 1: magnetic field in [A/m], column 2: magnetization, column 3: measurement uncertainty.
 
 **SC-SAXS_data.txt**: Small-angle X-ray scattering (SAXS) measurement of the dispersion of iron oxide single cores (SC) from [2]. column 1: scattering vector in [1/nm], column 2: scattering intensity, column 3: measurement uncertainty.
@@ -43,7 +43,7 @@ The second folder **2 Bayesian analysis** contains examples published in: \
 
 **Nanoperm_2DSANS_data.txt**: 2D magnetic small-angle neutron scattering (SANS) pattern of the nanocrystalline ferromagnet Nanoperm from [7]. column 1: angle theta between scattering vector q and alignment direction (from 0° to 180°), column 2: magnitude of scattering vector q in [1/nm], column 3: residual magnetic scattering intensity.
 
-# Notebooks
+# notebooks
 **DCM-numerical_inversion-MC**: Jupyter notebook to extract the underlying moment distribution from the DC-magnetization curve MC-DCM_data.txt from [1] (basically identical to DCM-numerical_inversion).
 
 **SAXS-numerical_inversion-sphere**: Jupyter notebook to extract the underlying particle size distribution from the SAXS measurement SC-SAXS_data.txt assuming spherical particle shape from [2].
@@ -61,12 +61,12 @@ The second folder **2 Bayesian analysis** contains examples published in: \
 **SANS-2D_experiment_Kaczmarz**: Jupyter notebook to extract the underlying 2D (magnetic) pair distance distribution function from the 2D (magnetic) SANS pattern Nanoperm_2DSANS_data.txt by the Kaczmarz algorithm from [7].
 
 # 2 Bayesian analysis
-# Data
+# data
 **Magnetization_data.txt**: First branch from 5 to -5 T of the isothermal DC-magnetization (DCM) curve of the powder sample of superparamagnetic core-shell nanoparticles (iron oxide cores with a thick silica shells) from [8]. column 1: magnetic field in [T], column 2: magnetization in [Am^2/kg_Fe]. 
 
 **SANS-0.002/0.1/1/5T_data.txt**: Field-dependent nuclear-magnetic cross term of the SANS intensity of the superparamagnetic core-shell nanoparticles (iron oxide cores with a thick silica shells) from [8]. column 1: scattering vector in [1/nm], column 2: scattering intensity in [arb. units], column 3: measurement uncertainty.
 
-# Notebooks
+# notebooks
 **DCM-Langevin-Bayes_fit**: Jupyter notebook in which the DCM measurement Magnetization_data.txt is fitted with the Langevin function under assumption of lognormal size distributions for core and total particle size. First, a standard least-squares fit is performed and then the fit results are used as starting values for the Bayesian refinement.
 
 **SANS-CoreShell-Bayes_fit**: Jupyter notebook in which the nuclear-magnetic cross term SANS-5T_data.txt is fitted with a form factor model for core-shell spheres under assumption of a homogeneous magnetization of the core and lognormal size distributions for the core and the total particle size. First, a standard least-squares fit is performed and then the fit results are used as starting values for the Bayesian refinement.
