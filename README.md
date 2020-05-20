@@ -5,7 +5,7 @@ The programs can be run without downloading anything in an executable environmen
 When you are new to python I recommend to first install Anaconda which conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science: https://www.anaconda.com/products/individual
 
 This repository is subdivided into two different folders. 
-The first folder **1: Inverse problems** contains examples published in the following papers:  
+The first folder **1: Inverse problems** contains examples published in:  
 [1] P. Bender et al., Sci. Rep. 7 (2017) 45990 https://doi.org/10.1038/srep45990 \
 "Structural and magnetic properties of multi-core nanoparticles analysed using a generalised numerical inversion method"\
 [2] P. Bender et al., New J. Phys. 19 (2017) 073012 https://doi.org/10.1088/1367-2630/aa73b4 \
