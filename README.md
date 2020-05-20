@@ -62,4 +62,15 @@ The second folder **2 Bayesian analysis** contains examples published in: \
 
 # 2 Bayesian analysis
 # Data
-**Magnetization_data.txt**: First branch from 5 to -5 T of the isothermal DC-magnetization (DCM) curve of the powder sample of core-shell nanoparticles (iron oxide core with a thick silica shell) from [8]. column 1: magnetic field in [T], column 2: magnetization in [Am^2/kg_Fe]. 
+**Magnetization_data.txt**: First branch from 5 to -5 T of the isothermal DC-magnetization (DCM) curve of the powder sample of superparamagnetic core-shell nanoparticles (iron oxide cores with a thick silica shells) from [8]. column 1: magnetic field in [T], column 2: magnetization in [Am^2/kg_Fe]. 
+
+**SANS-0.002/0.1/1/5T_data.txt**: Field-dependent nuclear-magnetic cross term of the SANS intensity of the superparamagnetic core-shell nanoparticles (iron oxide cores with a thick silica shells) from [8]. column 1: scattering vector in [1/nm], column 2: scattering intensity in [arb. units], column 3: measurement uncertainty.
+
+# Notebooks
+**DCM-Langevin-Bayes_fit**: Jupyter notebook in which the DCM measurement Magnetization_data.txt is fitted with the Langevin function under assumption of lognormal size distributions for core and total particle size. First, a standard least-squares fit is performed and then the fit results are used as starting values for the Bayesian refinement.
+
+**SANS-CoreShell-Bayes_fit**: Jupyter notebook in which the nuclear-magnetic cross term SANS-5T_data.txt is fitted with a form factor model for core-shell spheres under assumption of a homogeneous magnetization of the core and lognormal size distributions for the core and the total particle size. First, a standard least-squares fit is performed and then the fit results are used as starting values for the Bayesian refinement.
+
+**SANS-CoreShell_Bayes_global_fit**: Jupyter notebook in which all four field-dependent nuclear-magnetic cross terms SANS-0.002/0.1/1/5T_data.txt are fitted globally with a form factor model for core-shell spheres under assumption of a homogeneous magnetization of the core and lognormal size distributions for the core and the total particle size. First, a standard least-squares fit is performed and then the fit results are used as starting values for the Bayesian refinement.
+
+**SANS+DCM-Bayes_global_fit**: Jupyter notebook in which the DCM measurement Magnetization_data.txt and the four field-dependent nuclear-magnetic cross terms SANS-0.002/0.1/1/5T_data.txt are fitted with the same models as before but together (i.e. globally). First, a standard least-squares fit is performed and then the fit results are used as starting values for the Bayesian refinement.
