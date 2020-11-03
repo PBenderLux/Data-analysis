@@ -18,11 +18,11 @@ The first folder **1 Inverse problems** contains examples published in:
 "Dipolar-coupled moment correlations in clusters of magnetic nanoparticles" \
 [6] P. Bender et al., Acta Cryst. A75 (2019) 766-771 https://doi.org/10.1107/S205327331900891X \
 "Using the singular value decomposition to extract 2D correlation functions from scattering patterns" \
-[7] P. Bender & J. Leliaert et al., arxiv: 2003.14003 https://arxiv.org/abs/2003.14003 \
-"Imaging nanostructured spin textures"
+[7] P. Bender & J. Leliaert et al., Small Science (2020) 2000003 https://doi.org/10.1002/smsc.202000003 \
+"Unraveling nanostructured spin textures in bulk magnets"
 
 The second folder **2 Bayesian analysis** contains examples published in: \
-[8] M. Bersweiler, H. Gavilan Rubio, D. Honecker, A. Michels & P. Bender, https://arxiv.org/abs/2005.09325 \
+[8] M. Bersweiler, H. Gavilan Rubio, D. Honecker, A. Michels & P. Bender, Nanotechnology 31 (2020) 435704 https://doi.org/10.1088/1361-6528/aba57b \
 "The benefits of a Bayesian analysis for the characterization of magnetic nanoparticles"
 
 # 1 Inverse problems
