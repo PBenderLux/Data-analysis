@@ -22,7 +22,7 @@ The first folder **1 Inverse problems** contains examples published in:
 "Unraveling nanostructured spin textures in bulk magnets"
 
 The second folder **2 Bayesian analysis** contains examples published in: \
-[8] M. Bersweiler, H. Gavilan Rubio, D. Honecker, A. Michels & P. Bender, Nanotechnology 31 (2020) 435704 https://doi.org/10.1088/1361-6528/aba57b \
+[8] M. Bersweiler et al., Nanotechnology 31 (2020) 435704 https://doi.org/10.1088/1361-6528/aba57b \
 "The benefits of a Bayesian analysis for the characterization of magnetic nanoparticles"
 
 # 1 Inverse problems
